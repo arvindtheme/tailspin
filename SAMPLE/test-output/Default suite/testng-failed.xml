@@ -9,7 +9,7 @@
           <include name="report"/>
           <include name="setValues"/>
           <include name="beforeMethod"/>
-          <include name="createLeaf" invocation-numbers="0"/>
+          <include name="createLeaf"/>
           <include name="tearDownClass"/>
           <include name="startReport"/>
           <include name="afterMethod"/>
