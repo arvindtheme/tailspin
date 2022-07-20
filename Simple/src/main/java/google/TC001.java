@@ -2,11 +2,13 @@ package google;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TC001 {
-	public static void main(String[] args) {
+	@Test
+	public void google() {
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.google.co.in/");
